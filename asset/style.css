@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 1.5rem;
+    margin: 0px auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .header .logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  .header .logo span {
+    font-weight: 400;
+    font-size: 19px;
+    color: #3d0af5;
+    letter-spacing: 4px;
+  }
+  .header ul {
+    display: flex;
+    gap: 30px;
+  }
+  .header ul li {
+    list-style: none;
+  }
+  .header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 7px;
+  }
+  .header ul li a:hover{
+     font-weight: 700;
+  }
+  .banner {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .hero-title {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 100px;
+  }
+  .hero-title p {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .hero-title .region {
+    font-size: 80px;
+    font-weight: 700;
+  }
+  .hero-title .description {
+    width: 60%;
+    font-weight: 400;
+    color: #080808;
+  }
+  .hero-title .button {
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .hero-title .button:hover {
+    background-color: #1a1a1a;
+    color: #fff;
+  }
